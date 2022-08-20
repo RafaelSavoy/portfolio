@@ -17,10 +17,10 @@ export const PresentationName = styled.div`
 `
 export const Presentation = styled.p`
 	color: var(--primary-color);
-	font-size: clamp(2rem,2.5vw, 3rem);
+	font-size: clamp(1.5rem,2vw, 2rem);
 `
 export const Name = styled.h1`
-	font-size: clamp(3rem,10vw, 10rem);
+	font-size: clamp(3rem,5vw, 10rem);
 	color: var(--primary-color);
 	font-family: 'Ubuntu',sans-serif;
 	font-weight: lighter;
@@ -36,7 +36,8 @@ export const PresentationText = styled.p`
 	color: var(--primary-color);
 	margin-top: 1rem;
 	font-family: 'Open Sans',sans-serif;
-	font-size: clamp(1.5rem,3vw, 2.5rem);
+	font-size: clamp(1.5rem,2.5vw, 2rem);
+	word-break: break-all;
 	text-align: left;
 	line-height: 1.7;
 `
