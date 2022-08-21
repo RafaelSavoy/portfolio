@@ -20,6 +20,9 @@ const GlobalStyles = createGlobalStyle`
 		background-color: #222;
 		overflow-x: hidden;
 	}
+	strong{
+		color: var(--second-color)
+	}
 	::-webkit-scrollbar{
 		display: none;
 	}

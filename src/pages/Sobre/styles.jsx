@@ -6,10 +6,7 @@ export const Content = styled.div`
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	max-width: 1400px;
-	margin: 20px auto;
-	width: 80vw;
-	height: calc(100vh - 200px);
+	height: 80vh;
 `
 export const PresentationName = styled.div`
 	width: 100%;
@@ -24,7 +21,7 @@ export const Name = styled.h1`
 	color: var(--primary-color);
 	font-family: 'Ubuntu',sans-serif;
 	font-weight: lighter;
-	word-spacing: -100%;
+	margin-bottom: 1.5rem;
 	span{
 		color: var(--second-color);
 		font-family: 'Ubuntu',sans-serif;
@@ -34,14 +31,8 @@ export const Text = styled.div`
 `
 export const PresentationText = styled.p`
 	color: var(--primary-color);
-	margin-top: 1rem;
 	font-family: 'Open Sans',sans-serif;
 	font-size: clamp(1.5rem,2.5vw, 2rem);
-	word-break: break-all;
-	text-align: left;
 	line-height: 1.7;
-`
-export const SW = styled.strong`
-	font-weight: bold;
-	color: var(--second-color);;
+	text-align: left;
 `

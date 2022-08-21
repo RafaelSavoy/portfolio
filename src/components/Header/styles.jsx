@@ -6,10 +6,11 @@ export const StyledHeader = styled.header`
 	`
 export const HeaderContent = styled.div`
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
 	max-width: 1500px;
+	width: 90%;
 	margin: 0 auto;
 	
 	@media (max-width:485px){
