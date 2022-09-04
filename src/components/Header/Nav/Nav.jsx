@@ -7,10 +7,10 @@ const Nav = () => {
 	return (
 		<nav>
 			<LinkList>
-				<NavLink href='/' value='Sobre' />
-				<NavLink href='tecnologias' value='Tecnologias' />
-				<NavLink href='projetos' value='Projetos' />
-				<NavLink href='contato' value='Contato' />
+				<NavLink href='#sobre' value='Sobre' />
+				<NavLink href='#techs' value='Tecnologias' />
+				<NavLink href='#projetos' value='Projetos' />
+				<NavLink href='#contato' value='Contato' />
 			</LinkList>
 		</nav>
 	);

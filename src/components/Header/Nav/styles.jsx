@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const LinkList = styled.ul`
@@ -8,8 +7,8 @@ export const LinkList = styled.ul`
 export const StyledLI = styled.li`
 	margin: 1rem;
 `
-export const StyledLink = styled(Link)`
-	color: var(--primary-color);
+export const StyledLink = styled.a`
+	color: var(--primary-text-color);
 	cursor: pointer;
 	font-family: 'Roboto';
 	letter-spacing: 1px;

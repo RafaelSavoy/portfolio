@@ -6,7 +6,7 @@ import { StyledLI, StyledLink } from './styles';
 const NavLink = (props) => {
 	return (
 		<StyledLI>
-			<StyledLink to={props.href}>
+			<StyledLink href={props.href}>
 				{props.value}
 			</StyledLink>
 		</StyledLI>
