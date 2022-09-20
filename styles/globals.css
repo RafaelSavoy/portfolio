@@ -1,18 +1,30 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --primary-text-color: white;
+  --second-text-color: #00e5ff;
+  --button-color: #1cabbe;
+  --background-color: #222;
+  --title-font: 'Ubuntu', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  background-color: #222;
+  color: white;
+}
+
+strong {
+  color: var(--second-color)
 }

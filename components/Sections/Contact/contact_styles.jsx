@@ -34,7 +34,7 @@ export const ContactMethods = styled.div`
         text-align: center;
         margin: 10px;
         font-size: 20px;
-        font-family: 'Poppins'
+        font-family: 'Open Sans'
     }
 `
 export const ContactLinks = styled.div`

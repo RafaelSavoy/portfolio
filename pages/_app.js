@@ -1,15 +1,17 @@
-import GlobalStyles from './GlobalStyles';
 import { SnackbarProvider } from 'notistack';
 import Head from 'next/head'
+import '../styles/globals.css'
 
 
 function MyApp({ Component, pageProps }) {
   console.log('Renderizou')
   return (
     <>
-      <Head><title>Rafael Savoy</title></Head>
+      <Head>
+        <title>Rafael Savoy</title>
+       
+      </Head>
       <SnackbarProvider maxSnack={2}>
-        <GlobalStyles />
         <Component {...pageProps} />
       </SnackbarProvider>
     </>
