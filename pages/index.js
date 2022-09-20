@@ -9,7 +9,6 @@ const PROJECT_QUERY = `query Project{
 	allProjects{
 	id
 	title
-	slug
 	repo
     banner {
       url
@@ -20,7 +19,6 @@ const PROJECT_QUERY = `query Project{
 const TECHNOLOGY_QUERY = `query TECHNOLOGIES {
 	allTechnologies {
 	  id
-	  name
 	  description
 	  techicon {
 		url
