@@ -48,7 +48,7 @@ const Form = () => {
     // }
     
     return (
-        <ContactForm action='https://formsubmit.co/rafaelsavoy1@outlook.com' method='POST' >
+        <ContactForm action='https://formsubmit.co/contatorafaelsavoy@gmail.com' method='POST' >
 
             <input type="hidden" name="_template" value="box" />
             <input type="hidden" name="_captcha" value="false" />
