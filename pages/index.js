@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../components/Header/Header";
 import About from "../components/Sections/About/About";
 import Contact from "../components/Sections/Contact/Contact";
@@ -15,7 +16,7 @@ const PROJECT_QUERY = `query Project{
     }
   }
 }
-`
+`;
 const TECHNOLOGY_QUERY = `query TECHNOLOGIES {
 	allTechnologies {
 	  id
@@ -25,29 +26,29 @@ const TECHNOLOGY_QUERY = `query TECHNOLOGIES {
 	  }
 	}
   }
-  `
+  `;
 
 export const getStaticProps = async () => {
-  const projectsData = await request({ query: PROJECT_QUERY })
-  const techData = await request({ query: TECHNOLOGY_QUERY })
+    const projectsData = await request({ query: PROJECT_QUERY });
+    const techData = await request({ query: TECHNOLOGY_QUERY });
 
-  return {
-    props: {
-      techData,
-      projectsData
-    }
-    , revalidate: 60
-  }
-}
+    return {
+        props: {
+            techData,
+            projectsData,
+        },
+        revalidate: 60,
+    };
+};
 
 export default function Home({ techData, projectsData }) {
-  return (
-    <>
-      <Header />
-      <About />
-      <Technologies data={techData} />
-      <Projects data={projectsData} />
-      <Contact />
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <About />
+            <Technologies data={techData} />
+            <Projects data={projectsData} />
+            <Contact />
+        </>
+    );
 }
