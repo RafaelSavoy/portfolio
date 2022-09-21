@@ -25,7 +25,7 @@ const Projects = ({ data }) => {
                                 <ProjectImage src={project.banner.url} />
                                 <AboutProject>
                                     <ProjectName>{project.title}</ProjectName>
-                                    <ProjectLink href={project.repo}>
+                                    <ProjectLink href={project.repo} target='_blank'>
                                         Ver mais
                                     </ProjectLink>
                                 </AboutProject>
