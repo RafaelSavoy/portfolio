@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, DevIcon, Presentation, Text } from "./styles";
+import { Content, DevIcon, Presentation, Text, ToDownIcon } from "./styles";
 import { StyledSection, Title } from "../sectionStyles";
 
 const About = () => {
@@ -18,6 +18,7 @@ const About = () => {
                 </Presentation>
                 <DevIcon />
             </Content>
+            <ToDownIcon/>
         </StyledSection>
     );
 };

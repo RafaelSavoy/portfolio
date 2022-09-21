@@ -49,3 +49,27 @@ export const Text = styled.p`
     font-weight: normal;
     line-height: 1.5;
 `;
+
+const upAnimation = keyframes`
+    0%{
+        transform: translateY(0px);
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+`;
+
+export const ToDownIcon = styled.span`
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 5px;
+    border-radius: 100%;
+    background-color: var(--second-text-color);
+    animation: ${upAnimation} 1.5s infinite ease;
+`;
