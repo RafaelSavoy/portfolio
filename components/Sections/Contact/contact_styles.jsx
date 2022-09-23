@@ -7,6 +7,7 @@ export const Content = styled.div`
     flex-direction: column;
     margin: 20px auto;
     height: 100%;
+    width: 100%;
     transition: all 0.5s;
     @media (max-width: 710px){
         justify-content: center;
@@ -30,13 +31,17 @@ export const ContactMethods = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    p{
+    width: 65%;
+    p {
         text-align: center;
         margin: 10px;
         font-size: 20px;
-        font-family: 'Open Sans'
+        font-family: "Open Sans";
     }
-`
+    @media (max-width: 456px) {
+        width: 100%;
+    }
+`;
 export const ContactLinks = styled.div`
     display: flex;
     justify-content: space-around;

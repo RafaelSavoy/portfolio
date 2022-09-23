@@ -4,13 +4,15 @@ export const ContactForm = styled.form`
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
+    width: 100%;
 `
 export const FormLabel = styled.label`
     font-size: clamp(1.5rem,1.3vw,2.5rem);
     font-family: 'Montserrat',sans-serif;    
 `
 export const FormInput = styled.input`
-    width: 50vw;
+    width: 100%;
+    margin: 0 auto;
     background: none;
     outline: none;
     padding: 5px;
@@ -28,7 +30,7 @@ export const Message = styled.textarea`
     resize: none;
 `
 export const SubmitMessage = styled.button`
-    width: 50vw;
+    width: 100%;
     background: var(--button-color);
     padding: 10px;
     font-size: 15px;
