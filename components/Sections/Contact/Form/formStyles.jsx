@@ -10,7 +10,7 @@ export const FormLabel = styled.label`
     font-family: 'Montserrat',sans-serif;    
 `
 export const FormInput = styled.input`
-    width: 50%;
+    width: 50vw;
     background: none;
     outline: none;
     padding: 5px;
@@ -28,7 +28,7 @@ export const Message = styled.textarea`
     resize: none;
 `
 export const SubmitMessage = styled.button`
-    width: 50%;
+    width: 50vw;
     background: var(--button-color);
     padding: 10px;
     font-size: 15px;
