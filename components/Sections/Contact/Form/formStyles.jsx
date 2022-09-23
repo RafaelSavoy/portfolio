@@ -10,7 +10,7 @@ export const FormLabel = styled.label`
     font-family: 'Montserrat',sans-serif;    
 `
 export const FormInput = styled.input`
-    width: 300px;
+    width: 50%;
     background: none;
     outline: none;
     padding: 5px;
@@ -28,7 +28,7 @@ export const Message = styled.textarea`
     resize: none;
 `
 export const SubmitMessage = styled.button`
-    width: 300px;
+    width: 50%;
     background: var(--button-color);
     padding: 10px;
     font-size: 15px;
@@ -49,7 +49,7 @@ export const SubmitMessage = styled.button`
 export const ContactLinks = styled.div`
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: clamp(2rem,1.5vw,2.5rem);
     & > *{
         transition: all .2s;
     }
