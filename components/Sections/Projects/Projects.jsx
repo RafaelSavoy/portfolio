@@ -1,15 +1,6 @@
-import React, { useEffect, useState } from "react";
-import {
-    AboutProject,
-    Content,
-    ProjectImage,
-    ProjectLink,
-    ProjectList,
-    ProjectListItem,
-    ProjectName,
-} from "./projects_styles";
+import { Content, ProjectList } from "./projects_styles";
 import { StyledSection, Title } from "../sectionStyles";
-import { request } from "../../../lib/datocms";
+import ProjectCard from "./ProjectCard";
 
 const Projects = ({ data }) => {
     return (
@@ -20,22 +11,14 @@ const Projects = ({ data }) => {
             <Content>
                 <ProjectList>
                     {data.allProjects.map((project) => {
-                        return (
-                            <ProjectListItem key={project.id}>
-                                <ProjectImage src={project.banner.url} />
-                                <AboutProject>
-                                    <ProjectName>{project.title}</ProjectName>
-                                    <ProjectLink href={project.repo} target='_blank'>
-                                        Ver mais
-                                    </ProjectLink>
-                                </AboutProject>
-                            </ProjectListItem>
-                        );
+                        return <ProjectCard key={project.id} {...project} />;
                     })}
                 </ProjectList>
             </Content>
         </StyledSection>
     );
 };
+{
+}
 
 export default Projects;

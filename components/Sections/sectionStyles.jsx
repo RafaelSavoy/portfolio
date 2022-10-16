@@ -5,13 +5,9 @@ export const StyledSection = styled.section`
     flex-direction: column;
     min-height: ${(props) => (props.minHeight ? props.minHeight : "100vh")};
     max-width: 1500px;
-    margin: 10px auto;
+    margin: 5px auto;
     align-items: center;
-    justify-content: ${(props) =>
-        props.justifyContent ? props.justifyContent : "space-around"};
-    & > div {
-        width: 90%;
-    }
+    width: 90%;
 `;
 
 export const Title = styled.h1`

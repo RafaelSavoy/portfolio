@@ -10,12 +10,16 @@ export const ProjectList = styled.ul`
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 10px;
     list-style: none;
+    @media (max-width: 390px) {
+        grid-template-columns: 1fr;
+    }
 `;
 export const ProjectListItem = styled.li`
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 5px;
+    background: red;
 `;
 export const ProjectImage = styled.img`
     width: 100%;

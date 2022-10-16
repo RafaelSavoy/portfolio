@@ -49,6 +49,7 @@ export default function Home({ techData, projectsData }) {
             <Technologies data={techData} />
             <Projects data={projectsData} />
             <Contact />
+            {/* <Footer />   */}
         </>
     );
 }

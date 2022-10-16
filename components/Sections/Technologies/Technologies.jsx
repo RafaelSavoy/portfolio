@@ -1,12 +1,7 @@
 import React from "react";
-import {
-    Content,
-    TechImage,
-    TechList,
-    TechListItem,
-    TechText,
-} from "./technologies_styles";
+import { Content, TechList } from "./technologies_styles";
 import { StyledSection, Title } from "../sectionStyles";
+import TechCard from "./TechCard";
 
 const Technologies = ({ data }) => {
     return (
@@ -16,13 +11,8 @@ const Technologies = ({ data }) => {
             </Title>
             <Content>
                 <TechList>
-                    {data.allTechnologies.map((technology) => {
-                        return (
-                            <TechListItem key={technology.id}>
-                                <TechImage src={technology.techicon.url} />
-                                <TechText>{technology.description}</TechText>
-                            </TechListItem>
-                        );
+                    {data.allTechnologies.map((tech) => {
+                        return <TechCard key={tech.id} {...tech} />;
                     })}
                 </TechList>
             </Content>

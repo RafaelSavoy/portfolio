@@ -18,7 +18,7 @@ const About = () => {
                 </Presentation>
                 <DevIcon />
             </Content>
-            <ToDownIcon/>
+            <ToDownIcon />
         </StyledSection>
     );
 };
