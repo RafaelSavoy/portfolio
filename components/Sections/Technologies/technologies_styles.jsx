@@ -6,10 +6,9 @@ export const Content = styled.div`
 export const TechList = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    list-style: none;
     width: 100%;
     gap: 20px;
-    @media (max-width: 580px) {
+    @media (max-width: 650px) {
         grid-template-columns: 1fr;
     }
 `;
@@ -17,7 +16,7 @@ export const TechListItem = styled.li`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 1.5rem;
     border: 1px solid white;
     border-radius: 10px;
     min-height: 100%;

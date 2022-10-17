@@ -7,7 +7,7 @@ export const StyledNav = styled.nav`
         overflow: hidden;
         width: 100vw;
         left: 0;
-        top: 60px;
+        top: 6rem;
         transition-property: all;
         transition-duration: 0.5s;
         height: 0px;
@@ -16,8 +16,8 @@ export const StyledNav = styled.nav`
             props.open &&
             css`
                 visibility: visible;
-                height: 30px;
-                margin: 10px;
+                height: 3rem;
+                margin: 1rem;
             `}
     }
 `;

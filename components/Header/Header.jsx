@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
     function openNav() {
-        setOpen(!isOpen);
+        setOpen((prev) => !prev);
     }
     return (
         <StyledHeader>

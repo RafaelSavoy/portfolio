@@ -7,11 +7,14 @@ export const Content = styled.div`
 export const ProjectList = styled.ul`
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 310px);
     grid-gap: 10px;
     list-style: none;
-    @media (max-width: 390px) {
-        grid-template-columns: 1fr;
+    @media (max-width: 1100px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 550px) {
+        grid-template-columns: repeat(1, 1fr);
     }
 `;
 export const ProjectListItem = styled.li`
@@ -19,18 +22,16 @@ export const ProjectListItem = styled.li`
     flex-direction: column;
     border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 5px;
-    background: red;
 `;
 export const ProjectImage = styled.img`
     width: 100%;
     object-fit: cover;
-    border-radius: 5px 5px 0px 0px;
 `;
 export const AboutProject = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px;
+    padding: 1rem;
 `;
 export const ProjectName = styled.p`
     color: var(--primary-text-color);

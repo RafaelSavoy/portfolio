@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const ContactForm = styled.form`
     display: flex;
     flex-direction: column;
-    grid-gap: 10px;
+    gap: 1rem;
     width: 100%;
+    margin-top: 5rem;
 `;
 export const FormLabel = styled.label`
     font-size: clamp(1.5rem, 1.3vw, 2.5rem);
@@ -15,7 +16,7 @@ export const FormInput = styled.input`
     margin: 0 auto;
     background: none;
     outline: none;
-    padding: 5px;
+    padding: 0.5rem;
     color: white;
     border: 1px solid #1cabbe;
     border-radius: 5px;
@@ -26,20 +27,20 @@ export const FormInput = styled.input`
     }
 `;
 export const Message = styled.textarea`
-    height: 100px;
+    height: 10rem;
     resize: none;
 `;
 export const SubmitMessage = styled.button`
     width: 100%;
     background: var(--button-color);
-    padding: 10px;
-    font-size: 15px;
-    color: white;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
     border-radius: 5px;
     border: none;
     transition: all 0.5s ease-in-out;
     font-family: "Open Sans", sans-serif;
-    margin-top: 10px;
+    margin-top: 1rem;
     cursor: pointer;
 
     &:hover {

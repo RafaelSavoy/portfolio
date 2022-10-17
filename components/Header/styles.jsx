@@ -16,7 +16,7 @@ export const HeaderContent = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 1rem;
     max-width: 1500px;
     width: 90%;
     margin: 0 auto;
@@ -57,7 +57,7 @@ export const OpenNav = styled.button`
     background: none;
     color: white;
     border: none;
-    font-size: 30px;
+    font-size: 3rem;
     cursor: pointer;
     @media (min-width: 580px) {
         display: none;

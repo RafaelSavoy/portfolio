@@ -7,6 +7,7 @@ export const StyledSection = styled.section`
     max-width: 1500px;
     margin: 5px auto;
     align-items: center;
+    justify-content: center;
     width: 90%;
 `;
 

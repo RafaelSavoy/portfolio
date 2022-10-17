@@ -3,7 +3,7 @@
 :root {
   --primary-text-color: white;
   --second-text-color: #00e5ff;
-  --button-color: #1cabbe;
+  --button-color: #007fb1;
   --background-color: #222;
   --title-font: 'Ubuntu', sans-serif;
 }
@@ -27,4 +27,39 @@ body {
 
 strong {
   color: var(--second-color)
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 280px) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 240px) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 200px) {
+  html {
+    font-size: 15%;
+  }
 }

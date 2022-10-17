@@ -5,13 +5,13 @@ export const Content = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 1rem;
     width: 100%;
     transition: all 0.5s;
     @media (max-width: 710px) {
         justify-content: center;
         height: auto;
-        gap: 40px;
+        gap: 4rem;
     }
 `;
 export const ContactTexts = styled.div`
@@ -33,8 +33,8 @@ export const ContactMethods = styled.div`
     width: 65%;
     p {
         text-align: center;
-        margin: 10px;
-        font-size: 20px;
+        margin: 2rem;
+        font-size: 2rem;
         font-family: "Montserrat", sans-serif;
     }
     @media (max-width: 456px) {
@@ -44,11 +44,15 @@ export const ContactMethods = styled.div`
 export const ContactLinks = styled.div`
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
     & > * {
         transition: all 0.2s;
     }
     & > *:hover {
         scale: 1.1;
+    }
+    & > .social-icon{
+        width: 5rem !important;
+        height: 5rem !important;
+
     }
 `;

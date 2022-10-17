@@ -10,7 +10,7 @@ import {
 const ProjectCard = ({ banner, title, repo }) => {
     return (
         <ProjectListItem>
-            <ProjectImage src={banner.url} alt={"banner do projeto"} />
+            <ProjectImage src={banner.url} alt="banner do projeto" />
             <AboutProject>
                 <ProjectName>{title}</ProjectName>
                 <ProjectLink href={repo} target="_blank">

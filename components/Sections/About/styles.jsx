@@ -65,8 +65,8 @@ const upAnimation = keyframes`
 `;
 
 export const ToDownIcon = styled.span`
-    width: 15px;
-    height: 15px;
+    width: 1.5rem;
+    height: 1.5rem;
     position: absolute;
     bottom: 5px;
     border-radius: 100%;
