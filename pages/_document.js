@@ -32,9 +32,10 @@ export default class MyDocument extends Document {
         return (
             <Html lang="pt-br">
                 <Head>
-                    <link rel="preload" href="https://fonts.googleapis.com" />
+                    <link rel="preload" as="style" href="https://fonts.googleapis.com" />
                     <link
                         rel="preload"
+                        as="style"
                         href="https://fonts.gstatic.com"
                         crossOrigin="true"
                     />
