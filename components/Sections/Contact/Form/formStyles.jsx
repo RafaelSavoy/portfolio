@@ -8,7 +8,7 @@ export const ContactForm = styled.form`
     margin-top: 5rem;
 `;
 export const FormLabel = styled.label`
-    font-size: clamp(1.5rem, 1.3vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.3vw + 1rem, 2.5rem);
     font-family: "Montserrat", sans-serif;
 `;
 export const FormInput = styled.input`
@@ -51,7 +51,7 @@ export const SubmitMessage = styled.button`
 export const ContactLinks = styled.div`
     display: flex;
     justify-content: space-around;
-    font-size: clamp(2rem, 1.5vw, 2.5rem);
+    font-size: clamp(2rem, 1.5vw + 1rem, 2.5rem);
     & > * {
         transition: all 0.2s;
     }

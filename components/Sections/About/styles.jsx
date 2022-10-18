@@ -24,7 +24,7 @@ const flyAnimation = keyframes`
 	}
 `;
 export const DevIcon = styled(BiCodeAlt)`
-    font-size: clamp(5rem, 25vw, 30rem);
+    font-size: clamp(5rem, 25vw + 1rem, 30rem);
     display: block;
     width: 30%;
     color: var(--second-text-color);
@@ -43,7 +43,7 @@ export const Presentation = styled.div`
 `;
 export const Text = styled.p`
     color: var(--primary-text-color);
-    font-size: clamp(1.8rem, 2.5vw, 2.3rem);
+    font-size: clamp(1.8rem, 2.5vw + 1rem, 2.3rem);
     line-height: 1.3;
     font-family: "Montserrat", sans-serif;
     font-weight: normal;

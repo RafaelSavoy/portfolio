@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = ({ data }) => {
     return (
-        <StyledSection id="projetos" justifyContent="none">
-            <Title textAlign="center" margin="20px 0">
+        <StyledSection id="projetos">
+            <Title textAlign="center" margin="50px">
                 Projetos
             </Title>
             <Content>

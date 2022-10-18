@@ -2,19 +2,21 @@ import styled from "styled-components";
 
 export const Content = styled.div`
     display: flex;
-    margin: auto;
+    margin: 20px auto;
+    width: 100%;
 `;
 export const ProjectList = styled.ul`
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 310px);
+    grid-template-columns: repeat(3, minmax(30rem,1fr));
     grid-gap: 10px;
     list-style: none;
+    width: 100%;
     @media (max-width: 1100px) {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(30rem,1fr));
     }
     @media (max-width: 550px) {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, minmax(30rem,1fr));
     }
 `;
 export const ProjectListItem = styled.li`
@@ -29,29 +31,23 @@ export const ProjectImage = styled.img`
 `;
 export const AboutProject = styled.div`
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    justify-content: space-between;
 `;
 export const ProjectName = styled.p`
     color: var(--primary-text-color);
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(1.2rem, 1.3vw, 1.7rem);
+    font-size: clamp(1.2rem, 1.3vw + 1rem, 1.7rem);
     margin: auto 0;
     white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 1rem;
+    width: 90%;
 `;
 export const ProjectLink = styled.a`
-    color: var(--primary-text-color);
-    font-family: "Roboto", sans-serif;
-    font-size: clamp(1.1rem, 1.2vw, 1.5rem);
-    transition: all 0.2s ease-in-out;
-    border: 1px solid white;
-    padding: 2px 5px;
-    border-radius: 3px;
-    text-decoration: none;
-    white-space: nowrap;
-    :hover {
-        background-color: white;
-        color: black;
-    }
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
 `;

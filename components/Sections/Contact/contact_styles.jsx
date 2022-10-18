@@ -18,11 +18,11 @@ export const ContactTexts = styled.div`
     text-align: center;
     font-family: "Poppins", sans-serif;
     h1 {
-        font-size: clamp(2.2rem, 2.5vw, 3rem);
+        font-size: clamp(2.2rem, 2.5vw + 1rem, 3rem);
         color: var(--primary-text-color);
     }
     h2 {
-        font-size: clamp(1.7rem, 2vw, 2.5rem);
+        font-size: clamp(1.7rem, 2vw + 1rem, 2.5rem);
         color: var(--second-text-color);
     }
 `;

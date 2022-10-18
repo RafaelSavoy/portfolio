@@ -6,6 +6,7 @@ import {
     ProjectListItem,
     ProjectName,
 } from "./projects_styles";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 const ProjectCard = ({ banner, title, repo }) => {
     return (
@@ -14,7 +15,7 @@ const ProjectCard = ({ banner, title, repo }) => {
             <AboutProject>
                 <ProjectName>{title}</ProjectName>
                 <ProjectLink href={repo} target="_blank">
-                    Ver mais
+                    <RiArrowRightSLine />
                 </ProjectLink>
             </AboutProject>
         </ProjectListItem>

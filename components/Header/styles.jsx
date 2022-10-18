@@ -51,7 +51,7 @@ export const Profession = styled.p`
     font-family: "Montserrat";
     font-weight: lighter;
     text-align: center;
-    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.2rem, 2.5vw + 1rem, 1.5rem);
 `;
 export const OpenNav = styled.button`
     background: none;
