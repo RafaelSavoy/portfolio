@@ -43,7 +43,7 @@ export const Presentation = styled.div`
 `;
 export const Text = styled.p`
     color: var(--primary-text-color);
-    font-size: clamp(1.8rem, 2.5vw, 2.3rem);
+    font-size: clamp(2rem, 2.5vw + 1rem, 2.8rem);
     line-height: 1.3;
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
