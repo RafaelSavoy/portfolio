@@ -7,13 +7,10 @@ const About = () => {
         <StyledSection id="sobre">
             <Content>
                 <Presentation>
-                    <Title>Quem sou eu?</Title>
+                    <Title>Quem sou eu:</Title>
                     <Text>Tenho 17 anos e sou Desenvolvedor Web.</Text>
                     <Text>
-                        Durante o último ano estou estudando Desenvolvimento Web
-                        e as suas stacks, procurando me especializar na produção
-                        de sistemas completos, trabalhando em frontend e
-                        backend.
+                        Durante o último ano estou estudando e desenvolvendo projetos para aprimorar minhas habilidades. Almejo me tornar um desenvolvedor Full Stack, trabalhando em diversas plataformas.
                     </Text>
                 </Presentation>
                 <DevIcon />

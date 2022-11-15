@@ -37,7 +37,7 @@ export const StyledLogo = styled.div`
 `;
 export const Name = styled.h1`
     color: var(--primary-text-color);
-    font-size: clamp(2rem, 2.5vw + 1rem, 2.5rem);
+    font-size: var(--h1-font-size);
     font-family: "Montserrat";
     font-weight: lighter;
     word-spacing: -100%;
@@ -46,12 +46,11 @@ export const Name = styled.h1`
         font-family: "Montserrat";
     }
 `;
-export const Profession = styled.p`
+export const Profession = styled.h2`
     color: var(--primary-text-color);
     font-family: "Montserrat";
     font-weight: lighter;
     text-align: center;
-    font-size: clamp(1.2rem, 2.5vw + 1rem, 1.5rem);
 `;
 export const OpenNav = styled.button`
     background: none;

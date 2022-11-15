@@ -37,7 +37,7 @@ export const AboutProject = styled.div`
 export const ProjectName = styled.p`
     color: var(--primary-text-color);
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(1.2rem, 1.3vw + 1rem, 1.7rem);
+    font-size: var(--p-font-size);
     margin: auto 0;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -49,5 +49,5 @@ export const ProjectLink = styled.a`
     display: flex;
     align-items: center;
     color: white;
-    font-size: 2.5rem;
+    font-size: var(--p-font-size);
 `;

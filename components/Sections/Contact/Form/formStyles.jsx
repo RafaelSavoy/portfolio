@@ -4,11 +4,11 @@ export const ContactForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 100%;
-    margin-top: 5rem;
+    width: 80%;
+    margin: 0 auto;
 `;
 export const FormLabel = styled.label`
-    font-size: clamp(1.5rem, 1.3vw + 1rem, 2.5rem);
+    font-size: var(--p-font-size);
     font-family: "Montserrat", sans-serif;
 `;
 export const FormInput = styled.input`
@@ -51,7 +51,7 @@ export const SubmitMessage = styled.button`
 export const ContactLinks = styled.div`
     display: flex;
     justify-content: space-around;
-    font-size: clamp(2rem, 1.5vw + 1rem, 2.5rem);
+    font-size: var(--h1-font-size);
     & > * {
         transition: all 0.2s;
     }

@@ -6,7 +6,7 @@ const Projects = ({ data }) => {
     return (
         <StyledSection id="projetos">
             <Title textAlign="center" margin="50px">
-                Projetos
+                Meus projetos
             </Title>
             <Content>
                 <ProjectList>

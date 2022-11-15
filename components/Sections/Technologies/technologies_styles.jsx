@@ -26,7 +26,7 @@ export const TechText = styled.p`
     color: var(--primary-text-color);
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: clamp(1.3rem, 1vw + 1rem, 1.8rem);
+    font-size: var(--p-font-size);
     line-height: 1.3;
     width: 80%;
     text-align: start;

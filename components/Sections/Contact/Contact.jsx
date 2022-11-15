@@ -12,11 +12,11 @@ import Form from "./Form/Form";
 const Contact = () => {
     return (
         <StyledSection id="contato">
-            <ContactTexts>
-                <h1>Está interessado no meu trabalho?</h1>
-                <h2>Contate-me!</h2>
-            </ContactTexts>
             <Content>
+                <ContactTexts>
+                    <h1>Está interessado no meu trabalho?</h1>
+                    <h2>Contate-me!</h2>
+                </ContactTexts>
                 <ContactMethods id="contact-methods">
                     <Form />
                     <p>Ou</p>

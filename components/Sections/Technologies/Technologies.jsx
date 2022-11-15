@@ -6,7 +6,7 @@ import TechCard from "./TechCard";
 const Technologies = ({ data }) => {
     return (
         <StyledSection id="techs">
-            <Title textAlign="center" margin="20px">
+            <Title textAlign="center">
                 Tecnologias que eu uso
             </Title>
             <Content>

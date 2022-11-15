@@ -13,7 +13,7 @@ export const StyledSection = styled.section`
 
 export const Title = styled.h1`
     font-family: "Poppins", sans-serif;
-    font-size: clamp(3rem, 2.5vw + 1rem, 4rem);
+    font-size: var(--h1-font-size);
     color: var(--second-text-color);
     margin: ${(props) => (props.margin ? props.margin : "none")};
     text-align: ${(props) => (props.textAlign ? props.textAlign : "none")};
