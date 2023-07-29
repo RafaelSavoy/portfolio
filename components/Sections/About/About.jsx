@@ -8,7 +8,7 @@ const About = () => {
             <Content>
                 <Presentation>
                     <Title>Quem sou eu:</Title>
-                    <Text>Tenho 17 anos e sou Desenvolvedor Web.</Text>
+                    <Text>Tenho 18 anos e sou Desenvolvedor Web.</Text>
                     <Text>
                         Durante o último ano estou estudando e desenvolvendo projetos para aprimorar minhas habilidades. Almejo me tornar um desenvolvedor Full Stack, trabalhando em diversas plataformas.
                     </Text>
